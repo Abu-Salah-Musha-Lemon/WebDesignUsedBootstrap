@@ -1,0 +1,51 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-decoration: none;
+}
+a{
+ text-decoration: none;
+ color: black;
+ }
+
+.getStart{
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  margin: 1rem;
+
+}
+.orange{
+  color: #FF7468;
+}
+.orangeBg{
+  background-color: #FF7468;
+}
+#UiDesign{
+  width: 24rem;
+}
+#hover:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
