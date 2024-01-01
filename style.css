@@ -26,8 +26,10 @@ a{
   width: 24rem;
 }
 #hover:hover{
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
   border: none!important;
+  box-shadow: 0 0 32px -8px rgb(0 0 0 / 50%);
+  transition: .2s linear;
 }
 
 @media only screen and (max-width: 768px) {
@@ -54,6 +56,20 @@ a{
     margin: 0 !important;
     margin-top: 40px !important;
   }
+  .section-4 .col-md-8{
+    flex-direction: column !important;
+  }
+  .section-4 .col-md-8 .card{
+    margin: 10px;
+  }
+
+  
+.section-7>.card {
+  width: 284px !important;
+  border: none!important;
+  padding: 19px;
+  margin-bottom: 16px;
+}
 
 }
 
