@@ -27,10 +27,35 @@ a{
 }
 #hover:hover{
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border: none!important;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-2{
+    width: 100%;
+  }
+  .section-2 .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .section-2 .row .col-md-6{
+    flex-wrap: wrap;
+  }
+  .section-2 .row .col-md-6 .card-1, .card-2{
+    margin: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2 .row .col-md-6 .members {
+    /* background-color: red; */
+    margin: 0 !important;
+    margin-top: 40px !important;
+  }
 
-
+}
 
 
 
